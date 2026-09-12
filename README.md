@@ -1,37 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Developer Assignment - Therapy Website Redesign
 
-## Getting Started
+Welcome to my submission for the Frontend Developer assignment. This project is built using **Next.js** and **Tailwind CSS**. It showcases my ability to create pixel-perfect layouts, implement responsive designs, and apply critical product-thinking to redesign an existing template.
 
-First, run the development server:
+## 🔗 Links
+- **Live Demo:** [Insert your Vercel/Netlify link here]
+- **Loom Presentation:** [Insert your Loom video link here]
+
+---
+
+### Assignment Breakdown
+
+### Part 1: Pixel-Perfect Clone
+I started by recreating the original design template with high fidelity. Special attention was paid to:
+- Precise typography, spacing, and grid layouts.
+- A fully responsive structure, including a custom mobile hamburger menu.
+- Complex layout restructuring for smaller screens (e.g., converting horizontal Hero elements into a vertical flow for mobile).
+
+### Part 2: The Redesign & "Design Eye"
+I transformed the generic template into a highly specific, empathetic brand for a fictional solo practitioner: **Dr. Maya Reynolds**.
+- **Color Palette:** Shifted away from clinical colors to a calming, earthy palette consisting of Oat (`#F8F5F2`), Taupe (`#C8BBAE`), and Soft Sage Green (`#596854`) to evoke feelings of safety and peace.
+- **Copywriting:** Rewrote the copy to shift from a corporate "We" to a personal "I/My" tone, building immediate trust with potential clients.
+- **Purposeful Imagery:** Every image was chosen with psychological intent. For example, grounding forest imagery was used for Trauma Recovery, and a direct portrait of Dr. Maya was used to put a face to the practice.
+
+### Part 3: Creative Thinking Test (Custom Section)
+I designed and integrated a completely new **"Our Office"** section from scratch using the provided Google Docs details. 
+- Integrated real office images using a modern, staggered asymmetric layout.
+- Ensured the typography, background colors, and spacing felt like a natural, seamless continuation of the original template.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+- **Framework:** Next.js (React)
+- **Styling:** Tailwind CSS
+- **Code Quality:** 
+  - Maintained highly modular components.
+  - Extracted hardcoded content (like "Who I Help" and "Specialties" cards) into separate JS files inside a `/data` directory to ensure the UI components remain clean and easily scalable.
+  - Utilized Next.js `<Image>` for automatic image optimization.
+
+---
+
+## 💻 How to Run Locally
+
+First, clone the repository and install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Grow-My-Therapy-Assignment
