@@ -20,7 +20,7 @@ export default function OurOffice() {
 
             <div className="w-full flex flex-col md:flex-row gap-6 md:gap-8 justify-center">
                 {/* Image 1 */}
-                <div className="relative w-full md:w-1/2 h-[300px] md:h-[450px] lg:h-[500px]">
+                <div className="relative w-full md:w-1/2 h-75 md:h-112.5 lg:h-125">
                     <Image
                         src="/office1.jpeg"
                         alt="Therapy office interior"
@@ -31,7 +31,7 @@ export default function OurOffice() {
                 </div>
                 
                 {/* Image 2 */}
-                <div className="relative w-full md:w-1/2 h-[300px] md:h-[450px] lg:h-[500px] mt-8 md:mt-16">
+                <div className="relative w-full md:w-1/2 h-75 md:h-112.5 lg:h-125 mt-8 md:mt-16">
                     <Image
                         src="/office2.jpeg"
                         alt="Comfortable seating area"
