@@ -39,13 +39,13 @@ export default function About() {
             </div>
          </div>
 
-         <div className="w-full h-125 md:h-162.5 lg:h-175 lg:w-[35%] xl:w-[32%] relative z-0 mt-8 lg:mt-0">
+         <div className="w-full h-[400px] md:h-[500px] lg:h-[550px] lg:w-[35%] xl:w-[32%] relative z-0 mt-8 lg:mt-0">
             <Image
                src="/maya.png"
                alt="Dr. Maya Reynolds, PsyD"
                fill
                sizes="(max-width: 1024px) 100vw, 35vw"
-               className="object-cover object-[center_15%]"
+               className="object-cover object-[center_15%] lg:rounded-l-lg"
             />
          </div>
       </section>
