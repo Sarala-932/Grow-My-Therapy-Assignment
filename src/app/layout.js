@@ -23,10 +23,12 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${playfair.variable} ${inter.variable} antialiased font-sans`}
+                className={`${playfair.variable} ${inter.variable} antialiased font-sans bg-[#EAEFE9]`}
             >
-                <Navbar />
-                {children}
+                <div className="max-w-[1920px] mx-auto bg-[#F8F5F2] shadow-2xl relative overflow-hidden">
+                    <Navbar />
+                    {children}
+                </div>
             </body>
         </html>
     );
