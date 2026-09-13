@@ -40,7 +40,7 @@ export default function About() {
             </div>
          </div>
 
-         <div className="w-[85%] sm:w-[70%] md:w-[55%] lg:w-[35%] xl:w-[32%] mx-auto lg:mx-0 aspect-square relative z-0">
+         <div className="w-[85%] sm:w-[70%] md:w-[55%] lg:w-[28%] mx-auto lg:ml-auto lg:mr-0 aspect-square relative z-0">
             <Image
                src="/maya.png"
                alt="Dr. Maya Reynolds, PsyD"
