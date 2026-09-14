@@ -3,8 +3,8 @@
 Welcome to my submission for the Frontend Developer assignment. This project is built using **Next.js** and **Tailwind CSS**. It showcases my ability to create pixel-perfect layouts, implement responsive designs, and apply critical product-thinking to redesign an existing template.
 
 ## 🔗 Links
-- **Live Demo:** [Insert your Vercel/Netlify link here]
-- **Loom Presentation:** [Insert your Loom video link here]
+- Live Demo: https://grow-my-therapy-azure-chi.vercel.app/
+- Loom Presentation: https://www.loom.com/share/b6ef1ab630a14b1ab734c310d635e320
 
 ---
 
